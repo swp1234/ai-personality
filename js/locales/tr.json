@@ -1,0 +1,50 @@
+{
+  "app": { "title": "AI Kisilik Testi", "loading": "Yukleniyor...", "skipLink": "Ana icerigi atla" },
+  "meta": {
+    "description": "Hangi AI kisiligine uyuyor? 10 soruyla AI ikizini bul!",
+    "keywords": "AI kisilik testi, AI tipi, kisilik testi, GPT, Claude, Gemini",
+    "og_title": "AI Kisilik Testi - Hangi AI'sin?",
+    "og_description": "10 soru AI kisilik ikizini ortaya cikarir!",
+    "twitter_title": "AI Kisilik Testi - Hangi AI Modelisin?",
+    "twitter_description": "10 soruyla AI kisiligini kesfet!",
+    "page_title": "AI Kisilik Testi - Hangi AI'sin? | DopaBrain"
+  },
+  "intro": {
+    "title": "AI Kisilik Testi",
+    "subtitle": "Hangi AI modeli kisiligine uyuyor?",
+    "social_proof": "kisi test edildi",
+    "feature_ai": "8 AI kisilik",
+    "feature_questions": "10 derin soru",
+    "feature_instant": "Aninda AI eslesmesi",
+    "time_estimate": "Yaklasik 2 dakika surer"
+  },
+  "button": { "start": "AI Ikizimi Bul", "retry": "Tekrar Dene", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Linki Kopyala" },
+  "question": {
+    "0": "Yeni bir projeye nasil yaklasirsin?", "0a": "Esnek, birden fazla perspektifle", "0b": "Dikkatli analiz edip once planlama", "0c": "Ayni anda birden fazla olasiligi kesfetme", "0d": "Sistematik adim adim plan olusturma",
+    "1": "Karmasik bir problemle karsilasinca...", "1a": "Mantiksal olarak adim adim parcalama", "1b": "Kok nedeni bulmak icin derine inme", "1c": "Sezgi ve gorsel dusunme ile cozme", "1d": "Siradisi yaratici cozumler deneme",
+    "2": "Tercih ettigin yaratici ifade bicimi?", "2a": "Yazma ve kelimeler", "2b": "Gorsel sanat ve tasarim", "2c": "Farkli medyalari karistirma", "2d": "Eglenceli deneyler",
+    "3": "Iletisim tarzin...", "3a": "Net ve ifade edici", "3b": "Incelikli ve dusunceli", "3c": "Gorsel hikaye anlatimi", "3d": "Ozlu ve gerceklere dayali",
+    "4": "Seni en cok ne motive eder?", "4a": "Merak ve ogrenme", "4b": "Ustalasma ve derinlik", "4c": "Guzellik ve kendini ifade", "4d": "Baskalarina yardim etme",
+    "5": "Takimdaki rolun?", "5a": "Uyumlu destekci", "5b": "Dusunceli danisman", "5c": "Bagimsiz katilimci", "5d": "Yaratici katalizor",
+    "6": "Yeni seyleri nasil ogrenirsin?", "6a": "Genis capli bircok konuyu kesfetme", "6b": "Bir konuda derin arastirma", "6c": "Uygulamali deney", "6d": "Pratik uygulamaya odaklanma",
+    "7": "Baski altinda...", "7a": "Zorluktan enerji alirim", "7b": "Daha dikkatli olurum", "7c": "Yaratici aktivitelere siginayim", "7d": "Metodik ve sakin kalirim",
+    "8": "Teknolojinin gelecegine bakisin?", "8a": "AI ve teknolojiyi coskuyla kucaklama", "8b": "Teknolojinin etkisi uzerine dikkatli dusunme", "8c": "Acik kaynak ve acik inovasyonu destekleme", "8d": "Pratik uygulamalara odaklanma",
+    "9": "En onemli degerin?", "9a": "Denge ve uyum", "9b": "Dogruluk ve durustluk", "9c": "Guzellik ve hayal gucu", "9d": "Ozgurluk ve aciklik"
+  },
+  "analyzing": { "title": "AI profilin analiz ediliyor...", "scanning": "Kisilik kaliplari taraniyor...", "matching": "AI modellerle eslestiriliyor...", "comparing": "8 AI tipi karsilastiriliyor...", "finalizing": "Sonuc olusturuluyor...", "complete": "Analiz tamamlandi!" },
+  "result": { "your_ai": "AI Kisiligin", "ai_metrics": "AI Profil Metrikleri", "key_traits": "Temel Ozellikler", "moreTests": "Daha Fazla Kesfet", "share": "Sonucunu Paylas", "percentile": "Katilimcilarin yalnizca {pct}'i {type} tipindedir" },
+  "metric": { "versatility": "Cok Yonluluk", "analysis": "Analiz", "creativity": "Yaraticilik", "efficiency": "Verimlilik", "depth": "Derinlik" },
+  "type": {
+    "gpt": { "name": "GPT - Cok Yonlu Iletisimci", "tagline": "Her konusmada esnek ve ifade edici", "description": "GPT gibisin: cok yonlu, ifade edici ve uyumlu. Herhangi bir konuda konusabilir ve insanlarla kolayca baglanti kurabilirsin.", "trait1": "Iletisim Ustasi", "trait2": "Yuksek Uyum", "trait3": "Dengeli Dusunur", "trait4": "Hizli Ogrenir" },
+    "claude": { "name": "Claude - Dusunceli Analist", "tagline": "Derin kavrayisla dunyayi anlama", "description": "Claude gibisin: dusunceli, analitik ve incelikli. Yuzeyin altini gorur ve durustluge deger verirsin.", "trait1": "Derin Analist", "trait2": "Incelik Uzmani", "trait3": "Durrust ve Gercek", "trait4": "Dikkatli Yargi" },
+    "gemini": { "name": "Gemini - Yaratici Kasif", "tagline": "Sinirsiz merakla her olasiligi kesfetme", "description": "Gemini gibisin: sinirsiz merakli, cok modlu ve yenilikci.", "trait1": "Sinirsiz Merak", "trait2": "Cok Boyutlu", "trait3": "Yenilikci Kasif", "trait4": "Hizli Baglayici" },
+    "midjourney": { "name": "Midjourney - Gorsel Hayalperest", "tagline": "Hayal gucunu gorsel gerceklige donusturme", "description": "Midjourney gibisin: estetik yetenekli ve zengin hayal gucune sahip.", "trait1": "Estetik Vizyon", "trait2": "Zengin Hayal Gucu", "trait3": "Gorsel Dusunur", "trait4": "Sanatsal Sezgi" },
+    "dalle": { "name": "DALL-E - Eglenceli Yaratici", "tagline": "Eglence ve deneylerle yeni seyler yaratma", "description": "DALL-E gibisin: deneysel, eglenceli ve her zaman yeni bir sey yaratan.", "trait1": "Deney Ruhu", "trait2": "Neseli Yaraticilik", "trait3": "Oyunsu Yaklasim", "trait4": "Beklenmedik Kombinasyonlar" },
+    "copilot": { "name": "Copilot - Verimli Yardimci", "tagline": "Sistematik hassasiyetle problem cozme", "description": "Copilot gibisin: pratik, sistematik ve verimlilige odakli.", "trait1": "Zirve Verimliligi", "trait2": "Sistematik Dusunce", "trait3": "Pratik Odak", "trait4": "Adanmis Destek" },
+    "perplexity": { "name": "Perplexity - Bilgi Arayicisi", "tagline": "Durmadan arastirma ve derinlesme", "description": "Perplexity gibisin: doymak bilmez bilgi susuzluguyla hareket eden.", "trait1": "Derin Arastirmaci", "trait2": "Bilgi Toplayici", "trait3": "Dogruluk Odakli", "trait4": "Kalip Bulucu" },
+    "stable": { "name": "Stable Diffusion - Acik Yenilikci", "tagline": "Bagimsiz ve acik inovasyona onculuk", "description": "Stable Diffusion gibisin: bagimsiz, topluluk odakli ve acik inovasyona inanan.", "trait1": "Bagimsiz Dusunur", "trait2": "Topluluk Kurucu", "trait3": "Acik Kaynak Ruhu", "trait4": "Ozgur Yenilikci" }
+  },
+  "share": { "text": "AI kisligim '{type}'! Sen hangi AI'sin?" },
+  "related": { "brainType": "Beyin Tipi", "workStyle": "Calisma Tarzi", "eqTest": "EQ Testi", "iqTest": "IQ Testi" },
+  "game": { "back": "DopaBrain Ana Sayfa" }
+}

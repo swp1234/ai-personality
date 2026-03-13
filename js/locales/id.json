@@ -1,0 +1,50 @@
+{
+  "app": { "title": "Tes Kepribadian AI", "loading": "Memuat...", "skipLink": "Langsung ke konten" },
+  "meta": {
+    "description": "AI mana yang cocok dengan kepribadianmu? Jawab 10 pertanyaan dan temukan kembar AI-mu!",
+    "keywords": "tes kepribadian AI, tipe AI, kuis kepribadian, GPT, Claude, Gemini",
+    "og_title": "Tes Kepribadian AI - Kamu AI yang Mana?",
+    "og_description": "10 pertanyaan mengungkap kembar AI kepribadianmu!",
+    "twitter_title": "Tes Kepribadian AI - Kamu Model AI yang Mana?",
+    "twitter_description": "10 pertanyaan mengungkap kepribadian AI-mu!",
+    "page_title": "Tes Kepribadian AI - Kamu AI yang Mana? | DopaBrain"
+  },
+  "intro": {
+    "title": "Tes Kepribadian AI",
+    "subtitle": "Model AI mana yang cocok dengan kepribadianmu?",
+    "social_proof": "orang telah diuji",
+    "feature_ai": "8 kepribadian AI",
+    "feature_questions": "10 pertanyaan mendalam",
+    "feature_instant": "Cocokkan AI instan",
+    "time_estimate": "Sekitar 2 menit"
+  },
+  "button": { "start": "Temukan Kembar AI-ku", "retry": "Coba Lagi", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Salin Link" },
+  "question": {
+    "0": "Bagaimana pendekatanmu terhadap proyek baru?", "0a": "Fleksibel, mempertimbangkan berbagai perspektif", "0b": "Menganalisis dengan hati-hati dan merencanakan dulu", "0c": "Menjelajahi beberapa kemungkinan sekaligus", "0d": "Membuat rencana sistematis langkah demi langkah",
+    "1": "Menghadapi masalah kompleks, kamu...", "1a": "Memecahnya secara logis langkah demi langkah", "1b": "Menggali dalam untuk menemukan akar masalah", "1c": "Menggunakan intuisi dan pemikiran visual", "1d": "Mencoba solusi kreatif yang tidak biasa",
+    "2": "Cara ekspresi kreatif favoritmu?", "2a": "Menulis dan kata-kata", "2b": "Seni visual dan desain", "2c": "Mencampur berbagai media", "2d": "Eksperimen yang menyenangkan",
+    "3": "Gaya komunikasimu adalah...", "3a": "Jelas dan terstruktur", "3b": "Bernuansa dan bijaksana", "3c": "Penceritaan visual", "3d": "Ringkas dan berbasis fakta",
+    "4": "Apa yang paling mendorongmu?", "4a": "Rasa ingin tahu dan belajar", "4b": "Penguasaan dan kedalaman", "4c": "Keindahan dan ekspresi diri", "4d": "Membantu orang lain sukses",
+    "5": "Peranmu dalam tim?", "5a": "Pendukung yang adaptif", "5b": "Penasihat yang bijaksana", "5c": "Kontributor independen", "5d": "Katalis kreatif",
+    "6": "Bagaimana kamu belajar hal baru?", "6a": "Menjelajahi banyak topik secara luas", "6b": "Riset mendalam satu subjek", "6c": "Eksperimen langsung", "6d": "Fokus pada penerapan praktis",
+    "7": "Di bawah tekanan, kamu...", "7a": "Mendapat energi dari tantangan", "7b": "Menjadi lebih hati-hati", "7c": "Lari ke aktivitas kreatif", "7d": "Tetap metodis dan tenang",
+    "8": "Pandanganmu tentang masa depan teknologi?", "8a": "Merangkul AI dan teknologi dengan antusias", "8b": "Berpikir hati-hati tentang dampak teknologi", "8c": "Mendukung open-source dan inovasi terbuka", "8d": "Fokus pada aplikasi praktis",
+    "9": "Nilaimu yang paling penting?", "9a": "Keseimbangan dan harmoni", "9b": "Kebenaran dan integritas", "9c": "Keindahan dan imajinasi", "9d": "Kebebasan dan keterbukaan"
+  },
+  "analyzing": { "title": "Menganalisis profil AI-mu...", "scanning": "Memindai pola kepribadian...", "matching": "Mencocokkan dengan model AI...", "comparing": "Membandingkan 8 tipe AI...", "finalizing": "Menghasilkan hasil akhir...", "complete": "Analisis selesai!" },
+  "result": { "your_ai": "Kepribadian AI-mu", "ai_metrics": "Metrik Profil AI", "key_traits": "Sifat Utama", "moreTests": "Jelajahi Lagi", "share": "Bagikan Hasilmu", "percentile": "Hanya {pct} peserta yang bertipe {type}" },
+  "metric": { "versatility": "Keserbagunaan", "analysis": "Analisis", "creativity": "Kreativitas", "efficiency": "Efisiensi", "depth": "Kedalaman" },
+  "type": {
+    "gpt": { "name": "GPT - Komunikator Serbaguna", "tagline": "Fleksibel dan fasih dalam setiap percakapan", "description": "Kamu seperti GPT: serbaguna, fasih, dan adaptif. Bisa terlibat dalam topik apa pun dan terhubung dengan orang dengan mudah.", "trait1": "Ahli Komunikasi", "trait2": "Sangat Adaptif", "trait3": "Pemikir Seimbang", "trait4": "Pembelajar Cepat" },
+    "claude": { "name": "Claude - Analis Bijaksana", "tagline": "Memahami dunia melalui wawasan mendalam", "description": "Kamu seperti Claude: bijaksana, analitis, dan bernuansa. Melihat di balik permukaan dan menghargai kejujuran.", "trait1": "Analis Mendalam", "trait2": "Ahli Nuansa", "trait3": "Jujur & Tulus", "trait4": "Penilaian Hati-hati" },
+    "gemini": { "name": "Gemini - Penjelajah Kreatif", "tagline": "Menjelajahi setiap kemungkinan dengan rasa ingin tahu tanpa batas", "description": "Kamu seperti Gemini: penuh rasa ingin tahu, multimodal, dan inovatif.", "trait1": "Rasa Ingin Tahu Tanpa Batas", "trait2": "Multidimensi", "trait3": "Penjelajah Inovatif", "trait4": "Penghubung Cepat" },
+    "midjourney": { "name": "Midjourney - Pemimpi Visual", "tagline": "Mengubah imajinasi menjadi realitas visual", "description": "Kamu seperti Midjourney: berbakat estetis dengan imajinasi yang kaya.", "trait1": "Visi Estetis", "trait2": "Imajinasi Kaya", "trait3": "Pemikir Visual", "trait4": "Intuisi Artistik" },
+    "dalle": { "name": "DALL-E - Kreator Menyenangkan", "tagline": "Menciptakan yang baru dengan kesenangan dan eksperimen", "description": "Kamu seperti DALL-E: eksperimental, menyenangkan, dan selalu menciptakan sesuatu yang baru.", "trait1": "Jiwa Eksperimen", "trait2": "Kreativitas Ceria", "trait3": "Pendekatan Bermain", "trait4": "Kombinasi Tak Terduga" },
+    "copilot": { "name": "Copilot - Pembantu Efisien", "tagline": "Memecahkan masalah dengan presisi sistematis", "description": "Kamu seperti Copilot: praktis, sistematis, dan berorientasi efisiensi.", "trait1": "Efisiensi Puncak", "trait2": "Pikiran Sistematis", "trait3": "Fokus Praktis", "trait4": "Dukungan Berdedikasi" },
+    "perplexity": { "name": "Perplexity - Pencari Pengetahuan", "tagline": "Terus meneliti dan mendalami", "description": "Kamu seperti Perplexity: didorong oleh kehausan pengetahuan yang tak terpuaskan.", "trait1": "Peneliti Mendalam", "trait2": "Pengumpul Info", "trait3": "Mengejar Akurasi", "trait4": "Penemu Pola" },
+    "stable": { "name": "Stable Diffusion - Inovator Terbuka", "tagline": "Memimpin inovasi secara independen dan terbuka", "description": "Kamu seperti Stable Diffusion: independen, berorientasi komunitas, dan percaya pada inovasi terbuka.", "trait1": "Pemikir Independen", "trait2": "Pembangun Komunitas", "trait3": "Jiwa Open Source", "trait4": "Inovator Bebas" }
+  },
+  "share": { "text": "Kepribadian AI-ku adalah '{type}'! Kamu AI yang mana?" },
+  "related": { "brainType": "Tipe Otak", "workStyle": "Gaya Kerja", "eqTest": "Tes EQ", "iqTest": "Tes IQ" },
+  "game": { "back": "DopaBrain Beranda" }
+}

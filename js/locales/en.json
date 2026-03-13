@@ -1,0 +1,203 @@
+{
+  "app": {
+    "title": "AI Personality Test",
+    "loading": "Loading...",
+    "skipLink": "Skip to main"
+  },
+  "meta": {
+    "description": "Which AI matches your personality? Take this 10-question quiz to discover your AI twin!",
+    "keywords": "AI personality test, which AI am I, personality quiz, GPT, Claude, Gemini",
+    "og_title": "AI Personality Test - Which AI Model Are You?",
+    "og_description": "10 questions reveal your AI personality twin!",
+    "twitter_title": "AI Personality Test - Which AI Model Are You?",
+    "twitter_description": "10 questions reveal your AI personality twin!",
+    "page_title": "AI Personality Test - Which AI Are You? | DopaBrain"
+  },
+  "intro": {
+    "title": "AI Personality Test",
+    "subtitle": "Which AI model matches your personality?",
+    "social_proof": "people tested",
+    "feature_ai": "8 AI personalities",
+    "feature_questions": "10 insightful questions",
+    "feature_instant": "Instant AI match",
+    "time_estimate": "Takes about 2 minutes"
+  },
+  "button": {
+    "start": "Find My AI Twin",
+    "retry": "Try Again",
+    "share_kakao": "KakaoTalk",
+    "share_twitter": "Twitter",
+    "share_facebook": "Facebook",
+    "share_copy": "Copy Link"
+  },
+  "question": {
+    "0": "How do you approach a new project?",
+    "0a": "Flexibly, considering multiple perspectives",
+    "0b": "Carefully analyze and plan first",
+    "0c": "Explore several possibilities at once",
+    "0d": "Create a systematic step-by-step plan",
+
+    "1": "When facing a complex problem, you...",
+    "1a": "Break it down step by step logically",
+    "1b": "Dig deep to find the root cause",
+    "1c": "Use intuition and visual thinking",
+    "1d": "Try unconventional creative solutions",
+
+    "2": "Your preferred way of creative expression?",
+    "2a": "Writing and words",
+    "2b": "Visual art and design",
+    "2c": "Mixing different mediums together",
+    "2d": "Playful experimentation",
+
+    "3": "Your communication style is...",
+    "3a": "Clear and articulate",
+    "3b": "Nuanced and thoughtful",
+    "3c": "Visual storytelling",
+    "3d": "Concise and fact-based",
+
+    "4": "What drives you the most?",
+    "4a": "Curiosity and learning",
+    "4b": "Mastery and depth",
+    "4c": "Beauty and self-expression",
+    "4d": "Helping others succeed",
+
+    "5": "Your role in a team?",
+    "5a": "Adaptable supporter who fills any gap",
+    "5b": "Thoughtful advisor with deep insights",
+    "5c": "Independent contributor doing your own thing",
+    "5d": "Creative catalyst sparking new ideas",
+
+    "6": "How do you learn new things?",
+    "6a": "Broadly explore many topics",
+    "6b": "Deep-dive research into one subject",
+    "6c": "Hands-on experimentation",
+    "6d": "Focus on practical application",
+
+    "7": "When under pressure, you...",
+    "7a": "Get energized by the challenge",
+    "7b": "Become more careful and cautious",
+    "7c": "Escape into creative activities",
+    "7d": "Stay methodical and calm",
+
+    "8": "Your view on the future of technology?",
+    "8a": "Embrace AI and tech enthusiastically",
+    "8b": "Think carefully about tech's impact",
+    "8c": "Support open-source and open innovation",
+    "8d": "Focus on practical applications",
+
+    "9": "Your most important value?",
+    "9a": "Balance and harmony",
+    "9b": "Truth and integrity",
+    "9c": "Beauty and imagination",
+    "9d": "Freedom and openness"
+  },
+  "analyzing": {
+    "title": "Analyzing your AI profile...",
+    "scanning": "Scanning personality patterns...",
+    "matching": "Matching with AI models...",
+    "comparing": "Comparing across 8 AI types...",
+    "finalizing": "Generating final result...",
+    "complete": "Analysis complete!"
+  },
+  "result": {
+    "your_ai": "Your AI Personality",
+    "ai_metrics": "AI Profile Metrics",
+    "key_traits": "Key Traits",
+    "moreTests": "Explore More",
+    "share": "Share Your Result",
+    "percentile": "Only {pct} of all participants are the {type} type"
+  },
+  "metric": {
+    "versatility": "Versatility",
+    "analysis": "Analysis",
+    "creativity": "Creativity",
+    "efficiency": "Efficiency",
+    "depth": "Depth"
+  },
+  "type": {
+    "gpt": {
+      "name": "GPT - The Versatile Communicator",
+      "tagline": "Flexible and articulate in every conversation",
+      "description": "You're like GPT - versatile, articulate, and adaptable. You can engage with any topic, communicate clearly, and connect with people effortlessly. Your balanced perspective and quick adaptability are your greatest strengths.",
+      "trait1": "Master Communicator",
+      "trait2": "Highly Adaptable",
+      "trait3": "Balanced Thinker",
+      "trait4": "Quick Learner"
+    },
+    "claude": {
+      "name": "Claude - The Thoughtful Analyst",
+      "tagline": "Understanding the world through deep insight",
+      "description": "You're like Claude - thoughtful, analytical, and nuanced. You see beyond the surface, value honesty and careful reasoning. Your depth of thought and ethical consideration set you apart from the crowd.",
+      "trait1": "Deep Analyzer",
+      "trait2": "Nuance Expert",
+      "trait3": "Honest & Genuine",
+      "trait4": "Careful Judgment"
+    },
+    "gemini": {
+      "name": "Gemini - The Creative Explorer",
+      "tagline": "Exploring every possibility with boundless curiosity",
+      "description": "You're like Gemini - endlessly curious, multi-modal, and innovative. You seamlessly move between ideas, images, and concepts, driven by an insatiable desire to explore and discover new connections.",
+      "trait1": "Boundless Curiosity",
+      "trait2": "Multi-dimensional",
+      "trait3": "Innovative Explorer",
+      "trait4": "Quick Connector"
+    },
+    "midjourney": {
+      "name": "Midjourney - The Visual Dreamer",
+      "tagline": "Turning imagination into visual reality",
+      "description": "You're like Midjourney - aesthetically gifted with a rich imagination. You understand the world through beauty and visual storytelling, possessing a unique artistic worldview that others find inspiring.",
+      "trait1": "Aesthetic Vision",
+      "trait2": "Rich Imagination",
+      "trait3": "Visual Thinker",
+      "trait4": "Artistic Intuition"
+    },
+    "dalle": {
+      "name": "DALL-E - The Playful Creator",
+      "tagline": "Making the new through fun and experimentation",
+      "description": "You're like DALL-E - experimental, playful, and always creating something new. You approach challenges like a game, combining unexpected elements with joyful creativity to produce surprising results.",
+      "trait1": "Experimental Spirit",
+      "trait2": "Joyful Creativity",
+      "trait3": "Playful Approach",
+      "trait4": "Unexpected Combos"
+    },
+    "copilot": {
+      "name": "Copilot - The Efficient Helper",
+      "tagline": "Solving problems with systematic precision",
+      "description": "You're like Copilot - practical, systematic, and efficiency-driven. You value getting things done well and find deep satisfaction in helping others achieve better results through your organized approach.",
+      "trait1": "Peak Efficiency",
+      "trait2": "Systematic Mind",
+      "trait3": "Practical Focus",
+      "trait4": "Dedicated Support"
+    },
+    "perplexity": {
+      "name": "Perplexity - The Knowledge Seeker",
+      "tagline": "Endlessly researching and diving deep",
+      "description": "You're like Perplexity - driven by an unquenchable thirst for knowledge. One question leads to ten more. You have a passion for deep research, accurate information, and discovering hidden connections.",
+      "trait1": "Deep Researcher",
+      "trait2": "Info Gatherer",
+      "trait3": "Accuracy Driven",
+      "trait4": "Pattern Finder"
+    },
+    "stable": {
+      "name": "Stable Diffusion - The Open Innovator",
+      "tagline": "Leading innovation independently and openly",
+      "description": "You're like Stable Diffusion - independent, community-oriented, and believing in open innovation. You solve problems your own way, value freedom, and contribute to a shared knowledge ecosystem.",
+      "trait1": "Independent Thinker",
+      "trait2": "Community Builder",
+      "trait3": "Open Source Spirit",
+      "trait4": "Free Innovator"
+    }
+  },
+  "share": {
+    "text": "My AI personality is '{type}'! Which AI are you?"
+  },
+  "related": {
+    "brainType": "Brain Type",
+    "workStyle": "Work Style",
+    "eqTest": "EQ Test",
+    "iqTest": "IQ Test"
+  },
+  "game": {
+    "back": "DopaBrain Home"
+  }
+}

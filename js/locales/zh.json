@@ -1,0 +1,50 @@
+{
+  "app": { "title": "AI性格测试", "loading": "加载中...", "skipLink": "跳到主要内容" },
+  "meta": {
+    "description": "哪个AI与你的性格匹配？通过10个问题找到你的AI双胞胎！",
+    "keywords": "AI性格测试, AI类型, 性格测试, GPT, Claude, Gemini",
+    "og_title": "AI性格测试 - 你是哪个AI？",
+    "og_description": "10个问题揭示你的AI性格双胞胎！",
+    "twitter_title": "AI性格测试 - 你是哪个AI模型？",
+    "twitter_description": "10个问题揭示你的AI性格！",
+    "page_title": "AI性格测试 - 你是哪个AI？ | DopaBrain"
+  },
+  "intro": {
+    "title": "AI性格测试",
+    "subtitle": "哪个AI模型与你的性格匹配？",
+    "social_proof": "人已完成测试",
+    "feature_ai": "8种AI性格",
+    "feature_questions": "10个深度问题",
+    "feature_instant": "即时AI匹配",
+    "time_estimate": "大约需要2分钟"
+  },
+  "button": { "start": "寻找我的AI双胞胎", "retry": "再试一次", "share_kakao": "KakaoTalk", "share_twitter": "推特", "share_facebook": "脸书", "share_copy": "复制链接" },
+  "question": {
+    "0": "开始新项目时你的方法是？", "0a": "灵活地从多个角度出发", "0b": "仔细分析并制定计划", "0c": "同时探索多种可能性", "0d": "制定系统的分步计划",
+    "1": "面对复杂问题时你会...", "1a": "逐步逻辑地分解", "1b": "深入挖掘根本原因", "1c": "用直觉和视觉思维解决", "1d": "尝试非传统的创新方法",
+    "2": "你偏好的创意表达方式？", "2a": "文字和写作", "2b": "视觉艺术和设计", "2c": "混合不同媒介", "2d": "玩乐式实验",
+    "3": "你的沟通风格是...", "3a": "清晰而有条理", "3b": "细腻而深思熟虑", "3c": "视觉故事叙述", "3d": "简洁且基于事实",
+    "4": "什么最能驱动你？", "4a": "好奇心和学习", "4b": "专精和深度", "4c": "美感和自我表达", "4d": "帮助他人成功",
+    "5": "你在团队中的角色？", "5a": "灵活的支持者", "5b": "深思熟虑的顾问", "5c": "独立的贡献者", "5d": "创意催化剂",
+    "6": "你如何学习新事物？", "6a": "广泛探索多个话题", "6b": "深入研究一个主题", "6c": "动手实验", "6d": "注重实际应用",
+    "7": "压力之下你会...", "7a": "被挑战激发活力", "7b": "变得更加谨慎小心", "7c": "通过创意活动释压", "7d": "保持有条理和冷静",
+    "8": "你对未来科技的看法？", "8a": "积极拥抱AI和科技", "8b": "谨慎思考科技的影响", "8c": "支持开源和开放创新", "8d": "关注实际应用",
+    "9": "你最重要的价值观？", "9a": "平衡与和谐", "9b": "真实与正直", "9c": "美丽与想象力", "9d": "自由与开放"
+  },
+  "analyzing": { "title": "正在分析你的AI档案...", "scanning": "正在扫描性格模式...", "matching": "正在与AI模型匹配...", "comparing": "正在比较8种AI类型...", "finalizing": "正在生成最终结果...", "complete": "分析完成！" },
+  "result": { "your_ai": "你的AI性格", "ai_metrics": "AI档案指标", "key_traits": "核心特征", "moreTests": "探索更多", "share": "分享你的结果", "percentile": "仅{pct}的参与者是{type}类型" },
+  "metric": { "versatility": "多才多艺", "analysis": "分析力", "creativity": "创造力", "efficiency": "效率", "depth": "深度" },
+  "type": {
+    "gpt": { "name": "GPT - 全能沟通者", "tagline": "灵活且善于表达", "description": "你像GPT一样多才多艺、善于表达、适应力强。你能参与任何话题的讨论，清晰沟通，轻松与人建立联系。", "trait1": "沟通大师", "trait2": "高度适应", "trait3": "均衡思考", "trait4": "快速学习" },
+    "claude": { "name": "Claude - 深思分析者", "tagline": "通过深刻洞察理解世界", "description": "你像Claude一样深思熟虑、善于分析、注重细节。你能看到表象之下的含义，重视诚实和谨慎的推理。", "trait1": "深度分析", "trait2": "细节专家", "trait3": "诚实真实", "trait4": "谨慎判断" },
+    "gemini": { "name": "Gemini - 创意探索者", "tagline": "以无限好奇探索一切可能", "description": "你像Gemini一样充满好奇心、多模态且富有创新。你在想法、图像和概念之间自如切换，被探索和发现的渴望所驱动。", "trait1": "无限好奇", "trait2": "多维思考", "trait3": "创新探索", "trait4": "快速联想" },
+    "midjourney": { "name": "Midjourney - 视觉梦想家", "tagline": "将想象化为视觉现实", "description": "你像Midjourney一样具有出色的审美天赋和丰富的想象力。你通过美和视觉叙事理解世界。", "trait1": "审美视野", "trait2": "丰富想象", "trait3": "视觉思维", "trait4": "艺术直觉" },
+    "dalle": { "name": "DALL-E - 趣味创作者", "tagline": "通过乐趣和实验创造新事物", "description": "你像DALL-E一样充满实验精神、爱玩且总在创造新事物。你像游戏一样对待挑战，出人意料地组合元素。", "trait1": "实验精神", "trait2": "快乐创造", "trait3": "游戏化方法", "trait4": "意外组合" },
+    "copilot": { "name": "Copilot - 高效助手", "tagline": "用系统化精确解决问题", "description": "你像Copilot一样务实、系统化且追求效率。你重视做好每件事，并在帮助他人取得更好结果中获得满足。", "trait1": "极致效率", "trait2": "系统思维", "trait3": "务实专注", "trait4": "专注支持" },
+    "perplexity": { "name": "Perplexity - 知识探求者", "tagline": "不断探索和深入研究", "description": "你像Perplexity一样对知识有着无尽的渴望。一个问题引出十个新问题，你热衷于深入研究和准确信息。", "trait1": "深度研究", "trait2": "信息收集", "trait3": "追求准确", "trait4": "模式发现" },
+    "stable": { "name": "Stable Diffusion - 开放创新者", "tagline": "独立且开放地引领创新", "description": "你像Stable Diffusion一样独立、面向社区、相信开放创新。你用自己的方式解决问题，重视自由和共享知识。", "trait1": "独立思考", "trait2": "社区建设", "trait3": "开源精神", "trait4": "自由创新" }
+  },
+  "share": { "text": "我的AI性格是'{type}'！你是哪个AI？" },
+  "related": { "brainType": "脑型测试", "workStyle": "工作风格", "eqTest": "EQ测试", "iqTest": "IQ测试" },
+  "game": { "back": "DopaBrain首页" }
+}

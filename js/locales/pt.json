@@ -1,0 +1,50 @@
+{
+  "app": { "title": "Teste de Personalidade AI", "loading": "Carregando...", "skipLink": "Pular para o conteudo" },
+  "meta": {
+    "description": "Qual AI combina com sua personalidade? Responda 10 perguntas e descubra seu gemeo AI!",
+    "keywords": "teste personalidade AI, tipo AI, quiz personalidade, GPT, Claude, Gemini",
+    "og_title": "Teste de Personalidade AI - Qual AI voce e?",
+    "og_description": "10 perguntas revelam seu gemeo AI de personalidade!",
+    "twitter_title": "Teste de Personalidade AI - Qual modelo AI voce e?",
+    "twitter_description": "10 perguntas revelam sua personalidade AI!",
+    "page_title": "Teste de Personalidade AI - Qual AI Voce E? | DopaBrain"
+  },
+  "intro": {
+    "title": "Teste de Personalidade AI",
+    "subtitle": "Qual modelo AI combina com sua personalidade?",
+    "social_proof": "pessoas testadas",
+    "feature_ai": "8 personalidades AI",
+    "feature_questions": "10 perguntas profundas",
+    "feature_instant": "Match AI instantaneo",
+    "time_estimate": "Leva cerca de 2 minutos"
+  },
+  "button": { "start": "Encontrar Meu Gemeo AI", "retry": "Tentar Novamente", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Copiar Link" },
+  "question": {
+    "0": "Como voce aborda um novo projeto?", "0a": "De forma flexivel, considerando varias perspectivas", "0b": "Analiso cuidadosamente e planejo primeiro", "0c": "Exploro varias possibilidades ao mesmo tempo", "0d": "Crio um plano sistematico passo a passo",
+    "1": "Diante de um problema complexo...", "1a": "Decomponho passo a passo logicamente", "1b": "Mergulho fundo para encontrar a causa raiz", "1c": "Uso intuicao e pensamento visual", "1d": "Tento solucoes criativas nao convencionais",
+    "2": "Sua forma preferida de expressao criativa?", "2a": "Escrita e palavras", "2b": "Arte visual e design", "2c": "Misturar diferentes midias", "2d": "Experimentacao ludica",
+    "3": "Seu estilo de comunicacao e...", "3a": "Claro e articulado", "3b": "Nuancado e reflexivo", "3c": "Narrativa visual", "3d": "Conciso e baseado em fatos",
+    "4": "O que mais te motiva?", "4a": "Curiosidade e aprendizado", "4b": "Maestria e profundidade", "4c": "Beleza e autoexpressao", "4d": "Ajudar outros a ter sucesso",
+    "5": "Seu papel em uma equipe?", "5a": "Apoiador adaptavel", "5b": "Conselheiro reflexivo", "5c": "Contribuidor independente", "5d": "Catalisador criativo",
+    "6": "Como voce aprende coisas novas?", "6a": "Exploro amplamente varios topicos", "6b": "Pesquiso profundamente um tema", "6c": "Experimentacao pratica", "6d": "Foco em aplicacao pratica",
+    "7": "Sob pressao...", "7a": "Fico energizado pelo desafio", "7b": "Fico mais cauteloso", "7c": "Me refugio em atividades criativas", "7d": "Mantenho-me metodico e calmo",
+    "8": "Sua visao do futuro tecnologico?", "8a": "Abraco AI e tecnologia com entusiasmo", "8b": "Penso cuidadosamente sobre o impacto", "8c": "Apoio codigo aberto e inovacao aberta", "8d": "Foco em aplicacoes praticas",
+    "9": "Seu valor mais importante?", "9a": "Equilibrio e harmonia", "9b": "Verdade e integridade", "9c": "Beleza e imaginacao", "9d": "Liberdade e abertura"
+  },
+  "analyzing": { "title": "Analisando seu perfil AI...", "scanning": "Escaneando padroes de personalidade...", "matching": "Combinando com modelos AI...", "comparing": "Comparando 8 tipos de AI...", "finalizing": "Gerando resultado final...", "complete": "Analise completa!" },
+  "result": { "your_ai": "Sua Personalidade AI", "ai_metrics": "Metricas do Perfil AI", "key_traits": "Tracos Chave", "moreTests": "Explorar Mais", "share": "Compartilhe Seu Resultado", "percentile": "Apenas {pct} dos participantes sao do tipo {type}" },
+  "metric": { "versatility": "Versatilidade", "analysis": "Analise", "creativity": "Criatividade", "efficiency": "Eficiencia", "depth": "Profundidade" },
+  "type": {
+    "gpt": { "name": "GPT - O Comunicador Versatil", "tagline": "Flexivel e articulado em qualquer conversa", "description": "Voce e como GPT: versatil, articulado e adaptavel. Pode participar de qualquer tema e se conectar facilmente com as pessoas.", "trait1": "Mestre Comunicador", "trait2": "Altamente Adaptavel", "trait3": "Pensador Equilibrado", "trait4": "Aprendiz Rapido" },
+    "claude": { "name": "Claude - O Analista Reflexivo", "tagline": "Compreendendo o mundo com profunda perspicacia", "description": "Voce e como Claude: reflexivo, analitico e nuancado. Ve alem da superficie e valoriza a honestidade.", "trait1": "Analista Profundo", "trait2": "Especialista em Nuances", "trait3": "Honesto e Genuino", "trait4": "Julgamento Cuidadoso" },
+    "gemini": { "name": "Gemini - O Explorador Criativo", "tagline": "Explorando possibilidades com curiosidade infinita", "description": "Voce e como Gemini: curiosidade infinita, multimodal e inovador.", "trait1": "Curiosidade Infinita", "trait2": "Multidimensional", "trait3": "Explorador Inovador", "trait4": "Conector Rapido" },
+    "midjourney": { "name": "Midjourney - O Sonhador Visual", "tagline": "Transformando imaginacao em realidade visual", "description": "Voce e como Midjourney: dotado esteticamente com rica imaginacao.", "trait1": "Visao Estetica", "trait2": "Rica Imaginacao", "trait3": "Pensador Visual", "trait4": "Intuicao Artistica" },
+    "dalle": { "name": "DALL-E - O Criador Ludico", "tagline": "Criando o novo com diversao e experimentacao", "description": "Voce e como DALL-E: experimental, ludico e sempre criando algo novo.", "trait1": "Espirito Experimental", "trait2": "Criatividade Alegre", "trait3": "Abordagem Ludica", "trait4": "Combinacoes Inesperadas" },
+    "copilot": { "name": "Copilot - O Ajudante Eficiente", "tagline": "Resolvendo problemas com precisao sistematica", "description": "Voce e como Copilot: pratico, sistematico e focado em eficiencia.", "trait1": "Eficiencia Maxima", "trait2": "Mente Sistematica", "trait3": "Foco Pratico", "trait4": "Suporte Dedicado" },
+    "perplexity": { "name": "Perplexity - O Buscador de Conhecimento", "tagline": "Pesquisando e aprofundando sem parar", "description": "Voce e como Perplexity: movido por uma sede insaciavel de conhecimento.", "trait1": "Pesquisador Profundo", "trait2": "Coletor de Info", "trait3": "Busca Precisao", "trait4": "Descobridor de Padroes" },
+    "stable": { "name": "Stable Diffusion - O Inovador Aberto", "tagline": "Liderando inovacao de forma independente", "description": "Voce e como Stable Diffusion: independente, orientado a comunidade e crente em inovacao aberta.", "trait1": "Pensador Independente", "trait2": "Construtor de Comunidade", "trait3": "Espirito Open Source", "trait4": "Inovador Livre" }
+  },
+  "share": { "text": "Minha personalidade AI e '{type}'! Qual AI voce e?" },
+  "related": { "brainType": "Tipo Cerebral", "workStyle": "Estilo de Trabalho", "eqTest": "Teste EQ", "iqTest": "Teste IQ" },
+  "game": { "back": "DopaBrain Inicio" }
+}
