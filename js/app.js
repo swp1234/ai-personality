@@ -159,6 +159,7 @@ class AIPersonalityApp {
         this.answers = [];
         this.scores = [0, 0, 0, 0, 0, 0, 0, 0]; // 8 AI types
         this.resultType = null;
+        this.trackedOnce = new Set();
         this.init();
     }
 
@@ -171,6 +172,8 @@ class AIPersonalityApp {
         this.bindEvents();
         this.initTheme();
         this.hideLoader();
+        this.track('ai_personality_intro_view');
+        this.observeIntroCta();
 
         // GA4 event
         if (typeof gtag === 'function') {
@@ -178,10 +181,47 @@ class AIPersonalityApp {
         }
     }
 
+    track(eventName, params = {}) {
+        if (typeof gtag !== 'function') return;
+        gtag('event', eventName, Object.assign({
+            event_category: 'ai_personality',
+            page_path: window.location.pathname
+        }, params));
+    }
+
+    trackOnce(eventName, params = {}) {
+        if (this.trackedOnce.has(eventName)) return;
+        this.trackedOnce.add(eventName);
+        this.track(eventName, params);
+    }
+
+    observeIntroCta() {
+        const startBtn = document.getElementById('start-btn');
+        if (!startBtn) return;
+
+        if (!('IntersectionObserver' in window)) {
+            this.trackOnce('ai_personality_intro_cta_view', { cta_surface: 'intro_primary' });
+            return;
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            if (entries.some(entry => entry.isIntersecting)) {
+                this.trackOnce('ai_personality_intro_cta_view', { cta_surface: 'intro_primary' });
+                observer.disconnect();
+            }
+        }, { threshold: 0.5 });
+        observer.observe(startBtn);
+    }
+
     bindEvents() {
         // Start button
         const startBtn = document.getElementById('start-btn');
-        if (startBtn) startBtn.addEventListener('click', () => this.startQuiz());
+        if (startBtn) {
+            startBtn.addEventListener('click', () => {
+                this.track('ai_personality_start_click', { cta_surface: 'intro_primary' });
+                this.startQuiz();
+            });
+        }
 
         // Retry button
         const retryBtn = document.getElementById('retry-btn');
@@ -214,6 +254,16 @@ class AIPersonalityApp {
         document.getElementById('share-twitter')?.addEventListener('click', () => this.shareTwitter());
         document.getElementById('share-facebook')?.addEventListener('click', () => this.shareFacebook());
         document.getElementById('share-copy')?.addEventListener('click', () => this.shareCopy());
+
+        document.querySelectorAll('.related-card[data-related-slug]').forEach((card, index) => {
+            card.addEventListener('click', () => {
+                this.track('ai_personality_related_click', {
+                    related_position: index + 1,
+                    target_slug: card.dataset.relatedSlug || 'unknown',
+                    destination: card.href
+                });
+            });
+        });
     }
 
     hideLoader() {
@@ -264,6 +314,7 @@ class AIPersonalityApp {
 
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_start', { event_category: 'ai_personality' });
+            gtag('event', 'test_start', { event_category: 'ai_personality' });
         }
     }
 
@@ -316,6 +367,12 @@ class AIPersonalityApp {
         }
 
         this.answers.push({ question: questionId, option: optionIdx });
+        this.track('ai_personality_option_select', {
+            question_id: questionId,
+            question_number: questionId + 1,
+            option_index: optionIdx + 1,
+            dimension: QUESTIONS[questionId] ? QUESTIONS[questionId].dimension : 'unknown'
+        });
 
         // Next question after brief delay
         setTimeout(() => {
@@ -442,12 +499,33 @@ class AIPersonalityApp {
 
         // GA4
         if (typeof gtag === 'function') {
+            gtag('event', 'result_view', {
+                event_category: 'ai_personality',
+                event_label: type.id
+            });
+            gtag('event', 'ai_personality_result_view', {
+                event_category: 'ai_personality',
+                event_label: type.id,
+                result_type: type.id
+            });
             gtag('event', 'quiz_complete', {
                 event_category: 'ai_personality',
                 event_label: type.id,
                 value: 1
             });
         }
+        this.trackResultAd(type.id);
+    }
+
+    trackResultAd(resultType) {
+        document.querySelectorAll('[data-ad-surface] .adsbygoogle').forEach(slot => {
+            const container = slot.closest('[data-ad-surface]');
+            this.track('ai_personality_ad_impression', {
+                result_type: resultType,
+                ad_surface: container ? container.dataset.adSurface : 'result_ad',
+                ad_slot: slot.getAttribute('data-ad-slot') || 'auto'
+            });
+        });
     }
 
     spawnConfetti() {
@@ -467,6 +545,9 @@ class AIPersonalityApp {
     }
 
     restart() {
+        this.track('ai_personality_retry_click', {
+            result_type: this.resultType ? this.resultType.id : 'unknown'
+        });
         this.showScreen('intro-screen');
         window.scrollTo(0, 0);
     }
@@ -483,23 +564,27 @@ class AIPersonalityApp {
     }
 
     shareKakao() {
+        this.track('ai_personality_share_click', { share_method: 'kakao', result_type: this.resultType ? this.resultType.id : 'unknown' });
         const text = this.getShareText();
         const url = 'https://sharer.kakao.com/talk/friends/picker/link?url=' + encodeURIComponent(this.getShareUrl()) + '&text=' + encodeURIComponent(text);
         window.open(url, '_blank', 'width=600,height=400');
     }
 
     shareTwitter() {
+        this.track('ai_personality_share_click', { share_method: 'twitter', result_type: this.resultType ? this.resultType.id : 'unknown' });
         const text = this.getShareText();
         const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(this.getShareUrl());
         window.open(url, '_blank', 'width=600,height=400');
     }
 
     shareFacebook() {
+        this.track('ai_personality_share_click', { share_method: 'facebook', result_type: this.resultType ? this.resultType.id : 'unknown' });
         const url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(this.getShareUrl());
         window.open(url, '_blank', 'width=600,height=400');
     }
 
     async shareCopy() {
+        this.track('ai_personality_share_click', { share_method: 'copy', result_type: this.resultType ? this.resultType.id : 'unknown' });
         const text = this.getShareText() + ' ' + this.getShareUrl();
         try {
             await navigator.clipboard.writeText(text);

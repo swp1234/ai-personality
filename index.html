@@ -60,6 +60,7 @@
         "description": "Discover which AI model matches your personality through 10 insightful questions about your work style, creativity, and communication.",
         "url": "https://dopabrain.com/ai-personality/",
         "image": "https://dopabrain.com/ai-personality/icon-512.svg",
+        "dateModified": "2026-05-18",
         "applicationCategory": "EntertainmentApplication",
         "operatingSystem": "All",
         "browserRequirements": "Requires JavaScript. Modern browser (Chrome, Safari, Firefox, Edge).",
@@ -290,8 +291,26 @@
                     <span class="proof-text" data-i18n="intro.social_proof">people tested</span>
                 </div>
 
+                <button id="start-btn" class="btn btn-primary btn-glow" data-i18n="button.start">Find My AI Twin</button>
+                <p class="time-estimate" data-i18n="intro.time_estimate">Takes about 2 minutes</p>
+
+                <div class="intro-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">&#x1F916;</span>
+                        <span class="feature-text" data-i18n="intro.feature_ai">8 AI personalities</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">&#x2753;</span>
+                        <span class="feature-text" data-i18n="intro.feature_questions">10 insightful questions</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">&#x26A1;</span>
+                        <span class="feature-text" data-i18n="intro.feature_instant">Instant AI match</span>
+                    </div>
+                </div>
+
                 <!-- Result carousel preview -->
-                <div class="result-carousel">
+                <div class="result-carousel" aria-label="AI personality result preview">
                     <div class="carousel-track">
                         <div class="carousel-card" style="--card-accent:#10A37F">
                             <span class="carousel-emoji">&#x1F4AC;</span>
@@ -311,24 +330,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="intro-features">
-                    <div class="feature-item">
-                        <span class="feature-icon">&#x1F916;</span>
-                        <span class="feature-text" data-i18n="intro.feature_ai">8 AI personalities</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">&#x2753;</span>
-                        <span class="feature-text" data-i18n="intro.feature_questions">10 insightful questions</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-icon">&#x26A1;</span>
-                        <span class="feature-text" data-i18n="intro.feature_instant">Instant AI match</span>
-                    </div>
-                </div>
-
-                <button id="start-btn" class="btn btn-primary btn-glow" data-i18n="button.start">Find My AI Twin</button>
-                <p class="time-estimate" data-i18n="intro.time_estimate">Takes about 2 minutes</p>
             </div>
         </div>
 
@@ -422,7 +423,7 @@
                 </div>
 
                 <!-- In-article ad between result content and recommendations -->
-                <div class="ad-container" style="margin: 24px auto; text-align: center; min-height: 100px;">
+                <div class="ad-container" data-ad-surface="result_inline_ad" style="margin: 24px auto; text-align: center; min-height: 100px;">
                   <ins class="adsbygoogle"
                        style="display:block"
                        data-ad-client="ca-pub-3600813755953882"
@@ -436,12 +437,12 @@
                 <div class="related-tests">
                     <h3 data-i18n="result.moreTests">Explore More</h3>
                     <div class="related-grid">
-                        <a href="/brain-type/" class="related-card" style="--card-color:#e040fb"><span class="related-emoji">&#x1F9E0;</span><span class="related-name" data-i18n="related.brainType">Brain Type</span></a>
-                        <a href="/work-style/" class="related-card" style="--card-color:#00bcd4"><span class="related-emoji">&#x1F4BC;</span><span class="related-name" data-i18n="related.workStyle">Work Style</span></a>
-                        <a href="/eq-test/" class="related-card" style="--card-color:#ff9800"><span class="related-emoji">&#x1F49C;</span><span class="related-name" data-i18n="related.eqTest">EQ Test</span></a>
-                        <a href="/iq-test/" class="related-card" style="--card-color:#2ecc71"><span class="related-emoji">&#x1F4CA;</span><span class="related-name" data-i18n="related.iqTest">IQ Test</span></a>
-                        <a href="/hsp-test/" class="related-card" style="--card-color:#7c3aed"><span class="related-emoji">&#x1F338;</span><span class="related-name">HSP Test</span></a>
-                        <a href="/dopamine-type/" class="related-card" style="--card-color:#f59e0b"><span class="related-emoji">&#x26A1;</span><span class="related-name">Dopamine Type</span></a>
+                        <a href="/brain-type/" class="related-card" data-related-slug="brain-type" style="--card-color:#e040fb"><span class="related-emoji">&#x1F9E0;</span><span class="related-name" data-i18n="related.brainType">Brain Type</span></a>
+                        <a href="/work-style/" class="related-card" data-related-slug="work-style" style="--card-color:#00bcd4"><span class="related-emoji">&#x1F4BC;</span><span class="related-name" data-i18n="related.workStyle">Work Style</span></a>
+                        <a href="/eq-test/" class="related-card" data-related-slug="eq-test" style="--card-color:#ff9800"><span class="related-emoji">&#x1F49C;</span><span class="related-name" data-i18n="related.eqTest">EQ Test</span></a>
+                        <a href="/iq-test/" class="related-card" data-related-slug="iq-test" style="--card-color:#2ecc71"><span class="related-emoji">&#x1F4CA;</span><span class="related-name" data-i18n="related.iqTest">IQ Test</span></a>
+                        <a href="/hsp-test/" class="related-card" data-related-slug="hsp-test" style="--card-color:#7c3aed"><span class="related-emoji">&#x1F338;</span><span class="related-name">HSP Test</span></a>
+                        <a href="/dopamine-type/" class="related-card" data-related-slug="dopamine-type" style="--card-color:#f59e0b"><span class="related-emoji">&#x26A1;</span><span class="related-name">Dopamine Type</span></a>
                     </div>
                 </div>
 
