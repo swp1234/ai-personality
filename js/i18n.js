@@ -8,10 +8,16 @@ try {
             this.translations = {};
             this.supportedLanguages = ['ko', 'en', 'ja', 'zh', 'es', 'pt', 'id', 'tr', 'de', 'fr', 'hi', 'ru'];
             this.currentLang = this.detectLanguage();
+            document.documentElement.lang = this.currentLang;
             this.isLoading = false;
         }
 
         detectLanguage() {
+            try {
+                const params = new URLSearchParams(window.location.search || '');
+                const urlLang = params.get('lang');
+                if (urlLang && this.supportedLanguages.includes(urlLang)) return urlLang;
+            } catch (e) {}
             const saved = localStorage.getItem('preferredLanguage');
             if (saved && this.supportedLanguages.includes(saved)) return saved;
             const browser = navigator.language.split('-')[0].toLowerCase();
