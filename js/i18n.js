@@ -63,6 +63,7 @@ try {
         async setLanguage(lang) {
             if (!this.supportedLanguages.includes(lang)) return;
             this.currentLang = lang;
+            document.documentElement.lang = lang;
             localStorage.setItem('preferredLanguage', lang);
             await this.loadTranslations(lang);
             this.updateUI();

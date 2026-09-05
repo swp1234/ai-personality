@@ -1,8 +1,9 @@
 {
-  "name": "AI Personality Test - Which AI Are You?",
-  "short_name": "AI Personality",
-  "description": "Discover which AI model matches your personality. Take 10 questions to find your AI twin!",
-  "start_url": ".",
+  "name": "AI Character Choices",
+  "short_name": "AI Character",
+  "description": "Ten-choice author-created AI character metaphor. Not a personality assessment or model comparison.",
+  "start_url": "/ai-personality/",
+  "scope": "/ai-personality/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0f1e",
